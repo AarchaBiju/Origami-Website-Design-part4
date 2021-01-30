@@ -1,0 +1,61 @@
+a:link
+{
+    color: pink;
+}
+a:visited
+{
+    color :black;
+}
+
+.Header{
+    background-color: rgb(104,218,53);
+}
+
+.camel{
+    display:flex;
+    justify-content: space-between;
+    background-color:#DC143C;
+    padding:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.panda{
+    margin: 0px;
+    background-color: rgb(104,218,53);
+}
+
+.pigeon{
+    border:2px solid #000000;
+    background-color: #DC143C;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.chameleon{
+    border-radius: 20px;
+    background-color: rgb(104,218,53);
+    padding:30px;
+    margin:25px;
+    width:310px;
+    font-family: fantasy;
+}
+
+.camel:hover img{
+    opacity : 0.50;
+}
+
+.chameleon:hover img{
+    opacity : 0.50;
+}
+
+.pigeon:hover img{
+    opacity : 0.50;
+}
+
+.panda:hover img{
+    opacity : 0.50;
+}
